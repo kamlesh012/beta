@@ -1,0 +1,30 @@
+Modules requirements:
+
+pip install tensorflow
+pip install streamlit
+pip install streamlit-options-menu      (mabye already installed with streamlit)
+pip install flask
+pip install scikit-learn
+pip install numpy
+pip install pandas
+
+Procedure to RUN:
+
+GO To terminal of Your VS CODE in the root directory of this folder
+
+type in terminal:
+"streamlit run test.py"
+ (A new prediction window will open. Ignore or Close that window as per you wish. that is not the  homepage.)
+
+now open a second terminal in the root directory of the same project
+type in terminal:
+"python main.py"
+
+Now in your teminal you would see this message:
+"Running on http://127.0.0.1:5000"
+
+GO to this URL:http://127.0.0.1:5000
+(THis is the homepage. click Predict to open the prediction page.)
+
+
+
